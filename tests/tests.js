@@ -82,6 +82,15 @@ script('../node_modules/domready/ready.js', function () {
         })
       })
 
+      test('load file fail callback', 1, function() {
+        script(['error.js'], function(e) {
+          if(e && e.type ==='error') {
+            console.error(e)
+            ok(true, 'error log')
+          }
+        })
+      })
+
       test('setting script path', 3, function () {
         script.path('../vendor/')
         script(['patha', 'pathb', 'http://ded.github.com/morpheus/morpheus.js'], function () {

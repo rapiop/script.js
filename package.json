@@ -1,5 +1,5 @@
 {
-  "name": "scriptjs",
+  "name": "@rapiop/scriptjs",
   "description": "Asyncronous JavaScript loader and dependency manager",
   "keywords": [
     "ender",
@@ -11,7 +11,7 @@
   ],
   "version": "2.5.9",
   "license": "MIT",
-  "homepage": "https://github.com/ded/script.js",
+  "homepage": "https://github.com/rapiop/script.js",
   "author": "Dustin Diaz <dustin@dustindiaz.com> (http://dustindiaz.com)",
   "contributors": [
     "Jacob Thornton <jacob@twitter.com> (https://github.com/fat)"
@@ -20,7 +20,7 @@
   "ender": "./src/ender.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ded/script.js.git"
+    "url": "https://github.com/rapiop/script.js.git"
   },
   "devDependencies": {
     "sink-test": "*",
